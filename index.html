@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Tooltip Creation</title>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <td class="cell"></td>
+            <td class="cell">New Customers</td>
+            <td class="cell">Total Customers</td>
+            <td class="cell">Pct Returning Customers</td>
+        </tr>
+        
+        <tr style="background-color: rgba(206, 204, 204, 0.716);">
+            <td class="cell">2003</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>July</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in July <br><br>Low number of new customers is expected here.">202</td>
+            <td class="cell" data-tooltip="July was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">511</td>
+            <td class="cell" data-tooltip="Final month of minamal advertising <br><br> This number should remaun below 50% for next 18 month">60%</td>
+        </tr>
+        <tr>
+            <td>August</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in August <br><br>Low number of new customers is expected here.">1210</td>
+            <td class="cell" data-tooltip="August was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1509</td>
+            <td class="cell" data-tooltip="Number is low as desired, reflects new customer acquistion. <br><br> Primary driven by magazine ad compaigns">20%</td>
+        </tr>
+        <tr>
+            <td>September</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in September <br><br>Low number of new customers is expected here.">1112</td>
+            <td class="cell" data-tooltip="September was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1553</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 3">28%</td>
+        </tr>
+        <tr>
+            <td>October</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in October <br><br>Low number of new customers is expected here.">1132</td>
+            <td class="cell" data-tooltip="October was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1624</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 4">30%</td>
+        </tr>
+        <tr>
+            <td>November</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in November <br><br>Low number of new customers is expected here.">1094</td>
+            <td class="cell" data-tooltip="November was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1634</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 5">33%</td>
+        </tr>
+        <tr>
+            <td>December</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in December<br><br>Low number of new customers is expected here.">1210</td>
+            <td class="cell" data-tooltip="December was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">2037</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 6">41%</td>
+        </tr>
+
+
+        <tr style="background-color: lightgrey;">
+            <td>2004</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in January<br><br>Low number of new customers is expected here.">1039</td>
+            <td class="cell" data-tooltip="January was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1777</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 8">42%</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in February <br><br>Low number of new customers is expected here.">1013</td>
+            <td class="cell" data-tooltip="February was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1794</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 9">44%</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in March <br><br>Low number of new customers is expected here.">1056</td>
+            <td class="cell" data-tooltip="March was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1879</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 10">44%</td>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in April <br><br>Low number of new customers is expected here.">1088</td>
+            <td class="cell" data-tooltip="April was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">1981</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 11">45%</td>
+        </tr>
+        <tr>
+            <td>May</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in May <br><br>Low number of new customers is expected here.">1190</td>
+            <td class="cell" data-tooltip="May was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">2145</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 12">45%</td>
+        </tr>
+        <tr>
+            <td>June</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in June <br><br>Low number of new customers is expected here.">1144</td>
+            <td class="cell" data-tooltip="June was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">2135</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 13">46%</td>
+        </tr>
+        <tr>
+            <td>July</td>
+            <td class="cell" data-tooltip="We had not yet launched our magazine campaigns in July <br><br>Low number of new customers is expected here.">566</td>
+            <td class="cell" data-tooltip="July was the last month in which we related on word of mouth. <br><br> Total customer numbers were dropping off significant">2037</td>
+            <td class="cell" data-tooltip="Info for Column 4, Row 14">39%</td>
+        </tr>
+    </table>
+    
+    <div class="tooltip" id="custom-tooltip"></div>
+    <script src="script.js"></script>
+</body>
+</html>
